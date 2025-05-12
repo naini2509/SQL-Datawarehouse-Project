@@ -1,11 +1,13 @@
 **SQL Data Warehouse Project | End-to-End ETL Architecture**
 
+
 **Overview**
 
 This project demonstrates the design and implementation of a complete Data Warehouse pipeline using Microsoft SQL Server.
 It simulates CRM and ERP data integration through a Bronze → Silver → Gold layered architecture, emphasizing data quality, transformation, and reporting readiness.
 
 The project showcases advanced SQL skills in data ingestion, cleansing, aggregation, and validation, following industry-standard best practices.
+
 
 
 **Technologies Used**
@@ -15,6 +17,7 @@ SQL Server / Azure SQL Database
 T-SQL (Stored Procedures, DDL, DML, Testing)
 
 CSV Files (Source system simulation)
+
 
 
 **Project Objectives**
@@ -30,6 +33,7 @@ Aggregate key business metrics for analytics and reporting.
 Build a scalable warehouse structure ready for BI tools.
 
 
+
 **Key Components**
 
 | Layer  | Purpose                                                |
@@ -37,6 +41,7 @@ Build a scalable warehouse structure ready for BI tools.
 | Bronze | Raw data ingestion with minimal transformations.       |
 | Silver | Cleaned, deduplicated, and standardized business data. |
 | Gold   | Aggregated, analytics-ready datasets for reporting.    |
+
 
 
 **Process Workflow**
@@ -68,6 +73,7 @@ Aggregate metrics for business reporting.
 Validate data at Silver and Gold stages using tests/quality_checks_silver.sql and tests/quality_checks_gold.sql.
 
 
+
 **Business Problems Addressed**
 
 **Data Consistency**: Standardized customer, product, and transaction records.
@@ -79,12 +85,14 @@ Validate data at Silver and Gold stages using tests/quality_checks_silver.sql an
 **Anomaly Detection**: Built-in quality checks for missing data and outliers.
 
 
+
 **Dataset Summary**
 
 | Source | Files                                                | Description                                                        |
 | :----- | :--------------------------------------------------- | :----------------------------------------------------------------- |
 | CRM    | `cust_info.csv`, `prd_info.csv`, `sales_details.csv` | Customer profiles, product catalog, and sales transactions.        |
 | ERP    | `CUST_AZ12.csv`, `LOC_A101.csv`, `PX_CAT_G1V2.csv`   | Customer master records, location details, and product categories. |
+
 
 
 
@@ -99,6 +107,7 @@ Validate data at Silver and Gold stages using tests/quality_checks_silver.sql an
 ✅ Data Validation at multiple layers to ensure integrity.
 
 
+
 **Future Enhancements**
 
 Enable real-time data ingestion using streaming architecture.
@@ -106,6 +115,7 @@ Enable real-time data ingestion using streaming architecture.
 Integrate predictive analytics for revenue forecasting.
 
 Expand the model to additional business domains (logistics, finance).
+
 
 
 **About**
