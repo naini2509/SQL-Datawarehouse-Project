@@ -1,7 +1,7 @@
 **SQL Data Warehouse Project | End-to-End ETL Architecture**
 
 
-**Overview**:
+🔹**Overview**:
 
 This project demonstrates the design and implementation of a complete Data Warehouse pipeline using Microsoft SQL Server.
 It simulates CRM and ERP data integration through a Bronze → Silver → Gold layered architecture, emphasizing data quality, transformation, and reporting readiness.
@@ -10,7 +10,7 @@ The project showcases advanced SQL skills in data ingestion, cleansing, aggregat
 
 
 
-**Technologies Used**:
+🔹**Technologies Used**:
 
 SQL Server / Azure SQL Database
 
@@ -20,7 +20,7 @@ CSV Files (Source system simulation)
 
 
 
-**Project Objectives**:
+🔹**Project Objectives**:
 
 Ingest structured data from multiple source systems (CRM and ERP).
 
@@ -34,7 +34,7 @@ Build a scalable warehouse structure ready for BI tools.
 
 
 
-**Key Components**:
+🔹**Key Components**:
 
 | Layer  | Purpose                                                |
 | :----- | :----------------------------------------------------- |
@@ -44,7 +44,7 @@ Build a scalable warehouse structure ready for BI tools.
 
 
 
-**Process Workflow**:
+🔹**Process Workflow**:
 
 **Database Initialization**:
 
@@ -74,7 +74,7 @@ Validate data at Silver and Gold stages using tests/quality_checks_silver.sql an
 
 
 
-**Business Problems Addressed**:
+🔹**Business Problems Addressed**:
 
 **Data Consistency**: Standardized customer, product, and transaction records.
 
@@ -86,7 +86,7 @@ Validate data at Silver and Gold stages using tests/quality_checks_silver.sql an
 
 
 
-**Dataset Summary**:
+🔹**Dataset Summary**:
 
 | Source | Files                                                | Description                                                        |
 | :----- | :--------------------------------------------------- | :----------------------------------------------------------------- |
@@ -96,7 +96,7 @@ Validate data at Silver and Gold stages using tests/quality_checks_silver.sql an
 
 
 
-**Highlights**:
+🔹**Highlights**:
 
 📂 End-to-End ETL Process designed and built fully with SQL.
 
@@ -108,7 +108,7 @@ Validate data at Silver and Gold stages using tests/quality_checks_silver.sql an
 
 
 
-**Future Enhancements**:
+🔹**Future Enhancements**:
 
 Enable real-time data ingestion using streaming architecture.
 
@@ -118,7 +118,7 @@ Expand the model to additional business domains (logistics, finance).
 
 
 
-**About**:
+🔹**About**:
 
 This project reflects a real-world Data Engineering and ETL scenario using SQL technologies, demonstrating best practices in data ingestion, cleaning, transformation, validation, and reporting preparation.
 
