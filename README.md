@@ -48,41 +48,41 @@ It simulates CRM and ERP data integration through a Bronze → Silver → Gold l
 
 ➔ **Database Initialization**:
 
-▸ Setup schema and structure using init_database.sql.
+Setup schema and structure using init_database.sql.
 
 ➔ **Bronze Layer**:
 
-▸ Create Bronze tables: bronze/ddl_bronze.sql
+Create Bronze tables: bronze/ddl_bronze.sql
 
-▸ Load raw CRM and ERP data: bronze/proc_load_bronze.sql
+Load raw CRM and ERP data: bronze/proc_load_bronze.sql
 
 ➔ **Silver Layer**:
 
-▸ Create Silver tables: silver/ddl_silver.sql
+Create Silver tables: silver/ddl_silver.sql
 
-▸ Transform and cleanse data: silver/proc_load_silver.sql
+Transform and cleanse data: silver/proc_load_silver.sql
 
 ➔ **Gold Layer**:
 
-▸ Create Gold tables: gold/ddl_gold.sql
+Create Gold tables: gold/ddl_gold.sql
 
-▸ Aggregate metrics for business reporting.
+Aggregate metrics for business reporting.
 
 ➔ **Data Quality Assurance**:
 
-▸ Validate data at Silver and Gold stages using tests/quality_checks_silver.sql and tests/quality_checks_gold.sql.
+Validate data at Silver and Gold stages using tests/quality_checks_silver.sql and tests/quality_checks_gold.sql.
 
 
 
 🔹**Business Problems Addressed**:
 
-➔ **Data Consistency**: Standardized customer, product, and transaction records.
+**Data Consistency**: Standardized customer, product, and transaction records.
 
-➔ **Inventory Management**: Simulated ERP stock updates post-sales.
+**Inventory Management**: Simulated ERP stock updates post-sales.
 
-➔ **Revenue Tracking**: Prepared Gold tables with revenue, profit, and trend metrics.
+**Revenue Tracking**: Prepared Gold tables with revenue, profit, and trend metrics.
 
-➔ **Anomaly Detection**: Built-in quality checks for missing data and outliers.
+**Anomaly Detection**: Built-in quality checks for missing data and outliers.
 
 
 
